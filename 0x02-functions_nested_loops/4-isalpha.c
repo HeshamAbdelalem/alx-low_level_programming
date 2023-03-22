@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * _isalpha - shows 1 if the char a , if not 0
  *
