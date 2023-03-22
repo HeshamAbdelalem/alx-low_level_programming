@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_sign - detect if the input num 
+ * print_sign - detect if the input num
  * greater , equal or less then zero
  *
  * @n: the input number as an integer
@@ -18,7 +18,7 @@ int print_sign(int n)
 	else if (n < 0)
 	{
 		_putchar(45);
-		return(-1);
+		return (-1);
 	}
 	else
 	{
