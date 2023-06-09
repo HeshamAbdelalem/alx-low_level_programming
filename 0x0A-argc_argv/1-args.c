@@ -8,8 +8,10 @@
  * Return: 0 [nothing actually]
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-printf("%i\n", argc);
-return 0;
+(void)argv;
+
+printf("%d\n", argc - 1);
+return (0);
 }
