@@ -19,7 +19,7 @@ printf("0\n");
 return (0);
 }
 
-for (count = 1; argv[count]; i++)
+for (count = 1; argv[count]; count++)
 {
 n = strtol(argv[count], &flag, 10);
 if (*flag)
