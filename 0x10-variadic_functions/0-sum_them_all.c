@@ -3,6 +3,7 @@
 /**
  * sum_them_all - calc the sum of all parameters
  * @n: number of args passed to the function
+ * @...: the integers that we need to sum
  *
  * Return: the resulting sum
  */
