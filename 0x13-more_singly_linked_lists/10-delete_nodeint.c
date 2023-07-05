@@ -2,6 +2,7 @@
 
 /**
  * delete_nodeint_at_index ---> delete node in a linked list
+ * @head: pointer to the first node in the list
  * @index: index of deleted node
  * Return: 1 if pass , -1 if not
  */
